@@ -29,5 +29,8 @@
       "name": "Prakash Halder",
       "email": "prakash.halder@edifixio.com"
     }
-  ]
+  ],
+   "repositories": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
