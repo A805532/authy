@@ -1,0 +1,33 @@
+{
+  "name": "prakashhalder/authy",
+  "description": "Plugin for enabling two-factor authentication in Laravel applications",
+  "keywords": ["api", "authentication", "two factor", "authy", "laravel two factor authentication", "two factor authentication"],
+  "homepage": "https://github.com/srmklive/laravel-twofactor-authentication",
+  "license": "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "*",
+    "nesbot/carbon": "*",
+    "illuminate/support": "*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Srmklive\\Authy\\Providers\\AuthyServiceProvider"
+      ],
+      "aliases": {
+        "Authy": "Srmklive\\Authy\\Facades\\Authy"
+      }
+    }
+  },
+  "autoload":{
+    "psr-4": {
+      "Srmklive\\Authy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Prakash Halder",
+      "email": "prakash.halder@edifixio.com"
+    }
+  ]
+}
